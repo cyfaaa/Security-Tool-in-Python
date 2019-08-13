@@ -1,0 +1,297 @@
+(base) cyf:mutiencrypter/ $ python2 ./mutiencrypter.py                                                                                                   [18:18:41]
+Welcome to mutiencrypt! by 16020610025 Caoyinfeng
+
+Please choose encryption:
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+1
+--------------------------rsa--------------------------
+
+Do you want to generate new public and private keys? (y or n)
+y
+Would you like to encrypt or decrypt? (Enter e or d): 
+e
+What would you like to encrypt?
+abc
+Do you want to encrypt using your own public key? (y or n) 
+y
+433265 523973
+--------------------------rsa end--------------------------
+
+Cost 1.322488s
+
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+[(1, 1.322488)]
+Welcome to mutiencrypt! by 16020610025 Caoyinfeng
+
+Please choose encryption:
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+2
+--------------------------caesar--------------------------
+
+What is your encryption key?
+3
+What would you like to encrypt?
+abc
+ciphertext is def
+
+--------------------------caesar end--------------------------
+
+Cost 0.000146s
+
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+[(1, 1.322488), (2, 0.00014600000000020152)]
+Welcome to mutiencrypt! by 16020610025 Caoyinfeng
+
+Please choose encryption:
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+3
+--------------------------AES CBC--------------------------
+
+What would you like to encrypt?
+abcdefgh
+m=2, ol=8 (8), ciph=[44, 223, 165, 131, 129, 224, 99, 196, 144, 39, 2, 54, 134, 63, 102, 64]
+abcdefgh
+Random key test Mode: CBC
+cleartext: abcdefgh
+Key: [87, 189, 131, 168, 124, 240, 135, 245, 67, 177, 86, 109, 16, 44, 123, 183]
+Cipher: [19, 248, 93, 171, 39, 44, 197, 141, 178, 220, 17, 41, 111, 93, 28, 114, 220, 170, 106, 173, 7, 126, 231, 85, 52, 85, 205, 145, 168, 96, 97, 174]
+Decrypted: abcdefgh
+--------------------------AES CBC end--------------------------
+
+Cost 0.004662s
+
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+[(1, 1.322488), (3, 0.004662000000000166), (2, 0.00014600000000020152)]
+Welcome to mutiencrypt! by 16020610025 Caoyinfeng
+
+Please choose encryption:
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+4
+--------------------------PBE--------------------------
+
+What would you like to encrypt?
+abcdefgh
+What is your encryption key?
+abcdefgh 
+jFlEfR0wt9290e0z8gNEw7oPwMGcA5iS
+abcdefgh
+--------------------------PBE end--------------------------
+
+Cost 0.005813s
+
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+[(1, 1.322488), (4, 0.005813000000000068), (3, 0.004662000000000166), (2, 0.00014600000000020152)]
+Welcome to mutiencrypt! by 16020610025 Caoyinfeng
+
+Please choose encryption:
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+5
+--------------------------DES--------------------------
+
+What is your encryption key?
+abcdefgh
+What would you like to encrypt?
+abcdefgh
+Cipher: '*\x8di\xde\x9d_\xdf\xf9'
+('Deciphered: ', 'abcdefgh')
+--------------------------DES end--------------------------
+
+Cost 0.004339s
+
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+[(1, 1.322488), (4, 0.005813000000000068), (3, 0.004662000000000166), (5, 0.004338999999999871), (2, 0.00014600000000020152)]
+Welcome to mutiencrypt! by 16020610025 Caoyinfeng
+
+Please choose encryption:
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+6
+--------------------------MD5--------------------------
+
+What would you like to hash?
+abc
+900150983cd24fb0d6963f7d28e17f72
+--------------------------MD5 end--------------------------
+
+Cost 0.003915s
+
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+[(1, 1.322488), (4, 0.005813000000000068), (3, 0.004662000000000166), (5, 0.004338999999999871), (6, 0.003914999999999891), (2, 0.00014600000000020152)]
+Welcome to mutiencrypt! by 16020610025 Caoyinfeng
+
+Please choose encryption:
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+7
+--------------------------RC4--------------------------
+
+1 Encrypt or 2 Decode 
+1
+What would you like to encrypt?
+abcdefgh
+What is your encryption key?
+abcdefgh
+MGXfTw1zsLQ=
+--------------------------RC4 end--------------------------
+
+Cost 0.00055s
+
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+[(1, 1.322488), (4, 0.005813000000000068), (3, 0.004662000000000166), (5, 0.004338999999999871), (6, 0.003914999999999891), (7, 0.0005499999999998284), (2, 0.00014600000000020152)]
+Welcome to mutiencrypt! by 16020610025 Caoyinfeng
+
+Please choose encryption:
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+8
+--------------------------A5--------------------------
+
+1 Encrypt or 2 Decode 
+1
+What would you like to encrypt?
+abcdefgh
+What is your encryption key?
+abcdefgh
+0x8088166c752dc0d5L
+--------------------------A5--------------------------
+
+Cost 0.003609s
+
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
+
+[(1, 1.322488), (4, 0.005813000000000068), (3, 0.004662000000000166), (5, 0.004338999999999871), (6, 0.003914999999999891), (8, 0.0036089999999999733), (7, 0.0005499999999998284), (2, 0.00014600000000020152)]
+Welcome to mutiencrypt! by 16020610025 Caoyinfeng
+
+Please choose encryption:
+1 RSA
+2 caesar
+3 AES CBC
+4 PBE
+5 DES
+6 MD5
+7 RC4
+8 A5
